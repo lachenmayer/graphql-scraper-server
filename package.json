@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "graphql": "^0.12.3",
-    "graphql-scraper": "https://github.com/lachenmayer/graphql-scraper",
+    "graphql-scraper": "^1.0.0",
     "graphql-yoga": "^1.2.0"
   }
 }
