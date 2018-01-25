@@ -27,3 +27,23 @@ Point your browser to wherever you deployed the server, and you will see a [grap
 You can use this to send queries to your brand new server, or to explore the [`graphql-scraper`](https://github.com/lachenmayer/graphql-scraper) schema documentation interactively.
 
 You can also send GraphQL queries to the server (the query endpoint is also at `/`) using your favourite GraphQL client.
+
+If you can't think of a good query to try out, try this one:
+
+```graphql
+{
+  page(url: "http://news.ycombinator.com") {
+    items: queryAll(selector: "tr.athing") {
+      rank: text(selector: "td span.rank")
+      title: text(selector: "td.title a")
+      sitebit: text(selector: "span.comhead a")
+      url: attr(selector: "td.title a", name: "href")
+      attrs: next {
+        score: text(selector: "span.score")
+        user: text(selector: "a:first-of-type")
+        comments: text(selector: "a:nth-of-type(3)")
+      }
+    }
+  }
+}
+```
