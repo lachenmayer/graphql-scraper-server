@@ -1,0 +1,17 @@
+{
+  "name": "graphql-scraper-server",
+  "version": "1.0.0",
+  "description":
+    "Instantly spin up a graphql-scraper server (with 1-click deploy!)",
+  "main": "index.js",
+  "author": "harry lachenmayer <harrylachenmayer@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "graphql": "^0.12.3",
+    "graphql-scraper": "https://github.com/lachenmayer/graphql-scraper",
+    "graphql-yoga": "^1.2.0"
+  }
+}
