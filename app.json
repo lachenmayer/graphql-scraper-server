@@ -1,0 +1,6 @@
+{
+  "name": "graphql-scraper-server",
+  "description": "A web scraper with a GraphQL interface",
+  "repository": "https://github.com/lachenmayer/graphql-scraper-server",
+  "keywords": ["node", "graphql", "html", "scraping"]
+}
