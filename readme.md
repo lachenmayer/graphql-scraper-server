@@ -10,6 +10,8 @@ This is a super-simple module which simply ties together [`graphql-scraper`](htt
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lachenmayer/graphql-scraper-server)
 
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/lachenmayer/graphql-scraper-server)
+
 ## local install
 
 ```bash
